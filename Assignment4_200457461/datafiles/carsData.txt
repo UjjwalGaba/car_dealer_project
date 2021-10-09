@@ -1,0 +1,8 @@
+Audi,A7,excellent,v6,2020,4,32423,Red,./datafiles/Audi A7.jpg,2021-04-22
+Audi,A7,excellent,v6,2020,4,32423,Red,./datafiles/Audi A7.jpg,Available
+Audi,A4,Excellent,V6,2020,4,19432,Black,./datafiles/Audi A4.jpg,Available
+Mercedes Benz,E class,Best,v9,2021,2,32800,Black,./datafiles/E-Class.jpg,Available
+Mercedes Benz,Limosine,Great,v7,2019,4,239990,green,./datafiles/Mercedes-Benz-A-Class-Limousine.jpg,2021-04-15
+BMW,3 Series,OK,V5,2020,4,132339,Black,./datafiles/3series.jpg,Available
+BMW,5 Series,OK,V7,2020,3,324327,Black,./datafiles/5series.jpg,Available
+BMW,6 series,great,v8,2021,2,100000,grey,./datafiles/6series.jpg,2021-04-08

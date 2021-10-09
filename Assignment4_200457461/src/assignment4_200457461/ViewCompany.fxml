@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment4_200457461.ViewCompanyController">
+    <children>
+        <Pane prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <ImageView fx:id="companyLogo" fitHeight="215.0" fitWidth="224.0" layoutX="14.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true" />
+                <Label fx:id="companyName" alignment="CENTER" layoutX="231.0" layoutY="45.0" prefHeight="63.0" prefWidth="341.0" text="Company Name" textAlignment="CENTER">
+                    <font>
+                        <Font size="40.0" />
+                    </font>
+                </Label>
+                <Label layoutX="273.0" layoutY="132.0" text="Address : ">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </Label>
+                <Label fx:id="companyStreet" layoutX="378.0" layoutY="134.0" text="Street">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Label>
+                <Label fx:id="companyCity" layoutX="379.0" layoutY="160.0" text="City">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Label>
+                <Label fx:id="companyProvince" layoutX="379.0" layoutY="188.0" text="Province">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Label>
+                <Label fx:id="companyPostal" layoutX="382.0" layoutY="219.0" text="Postal Code">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Label>
+                <Label fx:id="soldCount" layoutX="54.0" layoutY="361.0" text="Sold">
+                    <font>
+                        <Font name="System Bold Italic" size="15.0" />
+                    </font>
+                </Label>
+                <Label fx:id="profitAmount" layoutX="51.0" layoutY="394.0" text="Profit">
+                    <font>
+                        <Font name="System Bold Italic" size="15.0" />
+                    </font>
+                </Label>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

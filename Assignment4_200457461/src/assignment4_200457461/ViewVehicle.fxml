@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="620.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment4_200457461.ViewVehicleController">
+   <children>
+      <ImageView fx:id="image" fitHeight="183.0" fitWidth="191.0" layoutX="55.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="74.0" layoutY="340.0" text="Condition : " />
+      <Label fx:id="condition" layoutX="160.0" layoutY="340.0" text="Condition" />
+      <Label layoutX="74.0" layoutY="420.0" text="Year :" />
+      <Label fx:id="year" layoutX="160.0" layoutY="420.0" text="Year" />
+      <Label layoutX="74.0" layoutY="460.0" text="Door :" />
+      <Label fx:id="doors" layoutX="160.0" layoutY="460.0" text="Doors" />
+      <Label layoutX="74.0" layoutY="500.0" text="Price :" />
+      <Label fx:id="price" layoutX="160.0" layoutY="500.0" text="Price" />
+      <Label layoutX="74.0" layoutY="540.0" text="Color :" />
+      <Label fx:id="color" layoutX="160.0" layoutY="540.0" text="Color" />
+      <Label layoutX="74.0" layoutY="580.0" text="Sold on :" />
+      <Label fx:id="soldOn" layoutX="160.0" layoutY="580.0" text="Date" />
+      <Label layoutX="74.0" layoutY="300.0" text="Model" />
+      <Label fx:id="model" layoutX="160.0" layoutY="300.0" text="Model" />
+      <Label layoutX="74.0" layoutY="380.0" text="Cylinders :" />
+      <Label fx:id="cylinder" layoutX="160.0" layoutY="380.0" text="Cylinder" />
+      <Label layoutX="74.0" layoutY="260.0" text="Make:" />
+      <Label fx:id="make" layoutX="160.0" layoutY="260.0" text="Make" />
+   </children>
+</AnchorPane>
